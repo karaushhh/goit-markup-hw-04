@@ -489,8 +489,8 @@ color: var(--color-title-h2-h3-darkbg);
         align-items: center;
         justify-content: center;
     }
-    .li-social:hover
-    .li-social:focus{
+    .a-social:hover
+    .a-social:focus{
         background-color: #404bbf;
     }
     .sectionfour-li {
