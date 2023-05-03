@@ -411,10 +411,6 @@ background: #F4F4FD;
 
 
     }
-    .div-sectionfour{
-        padding: 32px 0;
-    }
-    
     .sectionfour-h{
        
         
@@ -473,6 +469,7 @@ color: var(--color-title-h2-h3-darkbg);
     }
     .div-name{
         padding: 32px 16px;
+        padding: 32px 0;
     }
     .sectionfour-li {
         flex-basis: calc((100% - 72px) / 4);
