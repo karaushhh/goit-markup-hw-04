@@ -204,8 +204,11 @@ display: inline;
     .sectionone{
         background: var(--color-title-h2-h3-darkbg);
         padding: 188px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg); або background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
-        
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+        background-size: cover;
+        max-width: 1440px;
+        background-repeat: no-repeat;
+        background-position: center; 
     }
     .sectionone-h {
         max-width: 496px;
@@ -286,17 +289,34 @@ border-radius: 4px;
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
+    .rectangle{
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
+        height: 112px;
+        background-color: #f4f4fd; 
+        border-radius: 4px;
+        margin-bottom: 8px; 
+    }
+    .icon {
+        display: inline-block;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+      }
     .ul-sectiontwo {
         list-style: none;
         text-decoration: none;
         display: flex;
         gap: 24px; 
         padding-left: 0;
+       
     }
     
 
     .lisectiontwo {
         flex-basis: calc((100% - 72px) / 4);
+        
     }
 
     .sectiontwo-h {
