@@ -655,7 +655,7 @@ color: var(--color-resst);
             margin-right: 120px;
         }
     
-    .logosocial{
+    .footerdiv{
         display: flex;
         align-items: baseline;
     }
