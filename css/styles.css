@@ -547,6 +547,58 @@ color: var(--body-text);
 
 
     }
+    .sectionfive{
+        padding: 120px 0;
+        padding-bottom: 120px;
+        background-color: #FFFFFF;
+    }
+    h-sectionfive{
+    
+
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+margin: 0 auto;
+margin-bottom: 72px; 
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+    }
+    .div-sectionfive{
+        
+    }
+    .ul-sectionfive{
+        margin-top:72px;
+        display: flex;
+        gap:24px;
+        
+    }
+    .a-sectionfive{
+        width:100%;
+        height:100%;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:var(--subtle-text);
+    }
+    .a-sectionfive:hover,
+    .a-sectionfive:focus{
+        color:#404bbf;
+        border-color:#404bbf;
+    }
+
+    .li-sectionfive{
+        width: calc((100%-120px)/6);
+        height: 88px;
+    }
 .footer{
     padding: 100px 0;
     
