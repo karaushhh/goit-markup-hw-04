@@ -552,22 +552,12 @@ color: var(--body-text);
         padding-bottom: 120px;
         background-color: #FFFFFF;
     }
-    h-sectionfive{
-    
-
-
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-/* identical to box height, or 111% */
+    .h-sectionfive{
+    font-size: 36px;
 margin: 0 auto;
 margin-bottom: 72px; 
 text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-
+line-height: 1.1;
 color: #2E2F42;
     }
     .div-sectionfive{
