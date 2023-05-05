@@ -593,7 +593,7 @@ color: #2E2F42;
         height: 88px;
     }
     .footerul{
-        
+
     }
 .footer{
     padding: 100px 0;
@@ -653,6 +653,17 @@ color: var(--color-resst);
 
         
     }
+    .divsocial{
+
+    }
+    .logodiv{
+        
+    }
+    .li-social{
+        width: 40px;
+        height: 40px;
+    }
+    
     .footer-p {
 
 /* Body */
