@@ -577,7 +577,7 @@ color: #2E2F42;
         display: flex;
         align-items: center;
         justify-content: center;
-        color:var(--subtle-text);
+        color: #8e8f99;
     }
     .svg-sectionfive{
         fill: currentColor;
@@ -591,6 +591,9 @@ color: #2E2F42;
     .li-sectionfive{
         width: calc((100%-120px)/6);
         height: 88px;
+    }
+    .footerul{
+        
     }
 .footer{
     padding: 100px 0;
