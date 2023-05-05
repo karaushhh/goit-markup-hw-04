@@ -651,13 +651,13 @@ color: var(--color-resst);
 
 
     }
-        .div-footer{
-            margin-right: 120px;
-        }
-    
+        
+    .divfooter{
+       display: flex;
+        align-items: baseline; 
+    }
     .footerdiv{
-        display: flex;
-        align-items: baseline;
+        margin-right: 120px
     }
     .scp{
         font-weight: 500;
