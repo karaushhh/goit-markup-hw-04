@@ -139,7 +139,7 @@ text-transform: uppercase;
         color: var(--color-title-h2-h3-darkbg);
         background-color: #FFFFFF;
         cursor: pointer;
-        padding: 24px 0; 
+        padding: 24px 0;
         flex-direction: row;
         text-decoration: none;
         list-style: none;
