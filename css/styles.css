@@ -688,12 +688,12 @@ color: var(--color-resst);
         border-radius: 50%;
         display: flex; 
         align-items: center;
-        justify-self: center;
+        justify-content: center;
     }
- .a-socialf:hover
- .a-socialf:focus{
-            background-color: #31d0aa;
-        }
+    .a-socialf:hover,
+    .a-socialf:focus{
+        background-color: #31d0aa;
+    }
         .social-media{
             font-family: 'Roboto';
             font-style: normal;
@@ -717,7 +717,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 /* or 150% */
-
+margin-bottom: 16px;
 letter-spacing: 0.02em;
 
 /* CLOUD */
