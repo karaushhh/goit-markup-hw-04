@@ -653,8 +653,9 @@ color: var(--color-resst);
 
         
     }
-    .divsocial{
-
+    .logosocial{
+        display: flex;
+        align-items: baseline;
     }
     .scp{
         font-weight: 500;
