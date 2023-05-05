@@ -650,9 +650,11 @@ color: var(--color-resst);
 
 
 
-
-        
     }
+        .div-footer{
+            margin-right: 120px;
+        }
+    
     .logosocial{
         display: flex;
         align-items: baseline;
