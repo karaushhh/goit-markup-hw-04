@@ -827,11 +827,11 @@ flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
 }
-.port1{
+.portw{
     display: block;
 }
-.port1:hover,
-.port1:focus{
+.portw:hover,
+.portw:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .port-sectionlia {
