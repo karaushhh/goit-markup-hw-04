@@ -27,6 +27,7 @@ h5,
 h6,
 p{
 margin: 0;
+padding: 0;
 }
  *,
 *::before,
@@ -143,7 +144,6 @@ text-transform: uppercase;
         flex-direction: row;
         text-decoration: none;
         list-style: none;
-        display: block; 
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
 
@@ -154,7 +154,7 @@ text-transform: uppercase;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
-        
+        display: block;
         letter-spacing: 0.02em;
         color: var(--color-title-h2-h3-darkbg);
         background-color: #FFFFFF;
@@ -167,6 +167,7 @@ text-transform: uppercase;
     .li-headera:focus,
     .li-headera:hover{
         color: #404bbf;
+        box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
     .adresa {
         font-family: 'Roboto';
@@ -228,7 +229,7 @@ display: inline;
 
 font-family: "Roboto", sans-serif;
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 line-height: 1.07;
 font-size: 56px;
 color: var(--background-color);
@@ -701,6 +702,7 @@ color: var(--color-resst);
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
+            margin-bottom: 16px; 
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: var(--background-color);
