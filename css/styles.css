@@ -143,6 +143,7 @@ text-transform: uppercase;
         padding: 24px 0;
         flex-direction: row;
         text-decoration: none;
+        display: block;
         list-style: none;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
@@ -167,7 +168,6 @@ text-transform: uppercase;
     .li-headera:focus,
     .li-headera:hover{
         color: #404bbf;
-        box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
     .adresa {
         font-family: 'Roboto';
@@ -823,6 +823,13 @@ display: flex;
 flex-wrap: wrap; 
 column-gap: 24px;
 row-gap: 48px;
+}
+.port1{
+    display: block;
+}
+.port1:hover,
+.port1:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .port-sectionlia {
     box-sizing: border-box;
