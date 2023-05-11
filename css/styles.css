@@ -149,7 +149,23 @@ text-transform: uppercase;
      padding: 0;
     }
     .li-headera{ 
-        
+        flex-direction: row;
+        position: relative;
+        display: list-item;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: var(--color-title-h2-h3-darkbg);
+        background-color: #FFFFFF;
+        cursor: pointer;
+        flex-direction: row;
+        text-decoration: none;
+        display: block;
+        list-style: none;
+
     }
     .li-headera::after{
 
@@ -767,24 +783,8 @@ color: var(--color-resst);
     
 
 }
-.button-text{
-    
-
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: var(--color-partlogo-buttons);
-    cursor: pointer;
 
 
-}
 
 .button-linkp{
 
